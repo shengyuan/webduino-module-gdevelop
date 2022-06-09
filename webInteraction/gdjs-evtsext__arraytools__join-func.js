@@ -11,7 +11,7 @@ gdjs.evtsExt__ArrayTools__Join.conditionTrue_0 = {val:false};
 gdjs.evtsExt__ArrayTools__Join.condition0IsTrue_0 = {val:false};
 
 
-gdjs.evtsExt__ArrayTools__Join.userFunc0x9498c8 = function(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__ArrayTools__Join.userFunc0xd665a8 = function(runtimeScene, eventsFunctionContext) {
 "use strict";
 const arr = runtimeScene.getVariables().get(eventsFunctionContext.getArgument("arr"));
 const sep = eventsFunctionContext.getArgument("sep");
@@ -28,7 +28,7 @@ gdjs.evtsExt__ArrayTools__Join.eventsList0 = function(runtimeScene, eventsFuncti
 {
 
 
-gdjs.evtsExt__ArrayTools__Join.userFunc0x9498c8(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__ArrayTools__Join.userFunc0xd665a8(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 
@@ -53,7 +53,7 @@ var eventsFunctionContext = {
     return eventsFunctionContext._behaviorNamesMap[behaviorName];
   },
   createObject: function(objectName) {
-    var objectsList = eventsFunctionContext._objectsMap[objectName];
+    const objectsList = eventsFunctionContext._objectsMap[objectName];
     if (objectsList) {
       const object = parentEventsFunctionContext ?
         parentEventsFunctionContext.createObject(objectsList.firstKey()) :
@@ -64,6 +64,17 @@ var eventsFunctionContext = {
       }
       return object;    }
     return null;
+  },
+  getInstancesCountOnScene: function(objectName) {
+    const objectsList = eventsFunctionContext._objectsMap[objectName];
+    let count = 0;
+    if (objectsList) {
+      for(const objectName in objectsList.items)
+        count += parentEventsFunctionContext ?
+parentEventsFunctionContext.getInstancesCountOnScene(objectName) :
+        runtimeScene.getInstancesCountOnScene(objectName);
+    }
+    return count;
   },
   getLayer: function(layerName) {
     return runtimeScene.getLayer(layerName);

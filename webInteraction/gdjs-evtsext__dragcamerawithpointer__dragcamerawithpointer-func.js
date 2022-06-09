@@ -244,7 +244,7 @@ if( gdjs.evtsExt__DragCameraWithPointer__DragCameraWithPointer.condition1IsTrue_
 }if ( gdjs.evtsExt__DragCameraWithPointer__DragCameraWithPointer.condition0IsTrue_0.val ) {
 {
 {gdjs.evtsExt__DragCameraWithPointer__DragCameraWithPointer.conditionTrue_1 = gdjs.evtsExt__DragCameraWithPointer__DragCameraWithPointer.condition1IsTrue_0;
-gdjs.evtsExt__DragCameraWithPointer__DragCameraWithPointer.conditionTrue_1.val = eventsFunctionContext.getOnceTriggers().triggerOnce(14614980);
+gdjs.evtsExt__DragCameraWithPointer__DragCameraWithPointer.conditionTrue_1.val = eventsFunctionContext.getOnceTriggers().triggerOnce(15006380);
 }
 }}
 if (gdjs.evtsExt__DragCameraWithPointer__DragCameraWithPointer.condition1IsTrue_0.val) {
@@ -326,7 +326,7 @@ var eventsFunctionContext = {
     return eventsFunctionContext._behaviorNamesMap[behaviorName];
   },
   createObject: function(objectName) {
-    var objectsList = eventsFunctionContext._objectsMap[objectName];
+    const objectsList = eventsFunctionContext._objectsMap[objectName];
     if (objectsList) {
       const object = parentEventsFunctionContext ?
         parentEventsFunctionContext.createObject(objectsList.firstKey()) :
@@ -337,6 +337,17 @@ var eventsFunctionContext = {
       }
       return object;    }
     return null;
+  },
+  getInstancesCountOnScene: function(objectName) {
+    const objectsList = eventsFunctionContext._objectsMap[objectName];
+    let count = 0;
+    if (objectsList) {
+      for(const objectName in objectsList.items)
+        count += parentEventsFunctionContext ?
+parentEventsFunctionContext.getInstancesCountOnScene(objectName) :
+        runtimeScene.getInstancesCountOnScene(objectName);
+    }
+    return count;
   },
   getLayer: function(layerName) {
     return runtimeScene.getLayer(layerName);

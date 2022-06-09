@@ -11,7 +11,7 @@ gdjs.evtsExt__GameConfig__DefaultZoom.conditionTrue_0 = {val:false};
 gdjs.evtsExt__GameConfig__DefaultZoom.condition0IsTrue_0 = {val:false};
 
 
-gdjs.evtsExt__GameConfig__DefaultZoom.userFunc0x6f79e0 = function(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__GameConfig__DefaultZoom.userFunc0xb65da8 = function(runtimeScene, eventsFunctionContext) {
 "use strict";
 const layer = eventsFunctionContext.getArgument("layer");
 const SEARCH_DEFAULT_ZOOM = 'gdevelop_default_zoom';
@@ -36,7 +36,7 @@ gdjs.evtsExt__GameConfig__DefaultZoom.eventsList0 = function(runtimeScene, event
 {
 
 
-gdjs.evtsExt__GameConfig__DefaultZoom.userFunc0x6f79e0(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__GameConfig__DefaultZoom.userFunc0xb65da8(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 
@@ -61,7 +61,7 @@ var eventsFunctionContext = {
     return eventsFunctionContext._behaviorNamesMap[behaviorName];
   },
   createObject: function(objectName) {
-    var objectsList = eventsFunctionContext._objectsMap[objectName];
+    const objectsList = eventsFunctionContext._objectsMap[objectName];
     if (objectsList) {
       const object = parentEventsFunctionContext ?
         parentEventsFunctionContext.createObject(objectsList.firstKey()) :
@@ -72,6 +72,17 @@ var eventsFunctionContext = {
       }
       return object;    }
     return null;
+  },
+  getInstancesCountOnScene: function(objectName) {
+    const objectsList = eventsFunctionContext._objectsMap[objectName];
+    let count = 0;
+    if (objectsList) {
+      for(const objectName in objectsList.items)
+        count += parentEventsFunctionContext ?
+parentEventsFunctionContext.getInstancesCountOnScene(objectName) :
+        runtimeScene.getInstancesCountOnScene(objectName);
+    }
+    return count;
   },
   getLayer: function(layerName) {
     return runtimeScene.getLayer(layerName);

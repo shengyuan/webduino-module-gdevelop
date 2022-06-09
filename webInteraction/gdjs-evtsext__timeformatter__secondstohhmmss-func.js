@@ -11,7 +11,7 @@ gdjs.evtsExt__TimeFormatter__SecondsToHHMMSS.conditionTrue_0 = {val:false};
 gdjs.evtsExt__TimeFormatter__SecondsToHHMMSS.condition0IsTrue_0 = {val:false};
 
 
-gdjs.evtsExt__TimeFormatter__SecondsToHHMMSS.userFunc0xc289f8 = function(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__TimeFormatter__SecondsToHHMMSS.userFunc0xb7cbc8 = function(runtimeScene, eventsFunctionContext) {
 //custom function in custom fonction ~~Woow~~
 var format_time = function (time_second) {
     date = new Date(null);
@@ -30,7 +30,7 @@ gdjs.evtsExt__TimeFormatter__SecondsToHHMMSS.eventsList0 = function(runtimeScene
 {
 
 
-gdjs.evtsExt__TimeFormatter__SecondsToHHMMSS.userFunc0xc289f8(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__TimeFormatter__SecondsToHHMMSS.userFunc0xb7cbc8(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 
@@ -55,7 +55,7 @@ var eventsFunctionContext = {
     return eventsFunctionContext._behaviorNamesMap[behaviorName];
   },
   createObject: function(objectName) {
-    var objectsList = eventsFunctionContext._objectsMap[objectName];
+    const objectsList = eventsFunctionContext._objectsMap[objectName];
     if (objectsList) {
       const object = parentEventsFunctionContext ?
         parentEventsFunctionContext.createObject(objectsList.firstKey()) :
@@ -66,6 +66,17 @@ var eventsFunctionContext = {
       }
       return object;    }
     return null;
+  },
+  getInstancesCountOnScene: function(objectName) {
+    const objectsList = eventsFunctionContext._objectsMap[objectName];
+    let count = 0;
+    if (objectsList) {
+      for(const objectName in objectsList.items)
+        count += parentEventsFunctionContext ?
+parentEventsFunctionContext.getInstancesCountOnScene(objectName) :
+        runtimeScene.getInstancesCountOnScene(objectName);
+    }
+    return count;
   },
   getLayer: function(layerName) {
     return runtimeScene.getLayer(layerName);
