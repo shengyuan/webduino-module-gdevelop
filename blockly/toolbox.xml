@@ -1,0 +1,26 @@
+<category id="catGdevelopDemo"  COLOUR="20" index="9">
+  <block type="gdevelop_demo_move">
+    <field name="direction">move_up</field>
+  </block>
+  <block type="gdevelop_demo_move">
+    <field name="direction">move_down</field>
+  </block>
+  <block type="gdevelop_demo_move">
+    <field name="direction">move_left</field>
+  </block>
+  <block type="gdevelop_demo_move">
+    <field name="direction">move_right</field>
+  </block>
+  <block type="gdevelop_demo_move">
+    <field name="direction">move_up_left</field>
+  </block>
+  <block type="gdevelop_demo_move">
+    <field name="direction">move_up_right</field>
+  </block>
+  <block type="gdevelop_demo_move">
+    <field name="direction">move_down_left</field>
+  </block>
+  <block type="gdevelop_demo_move">
+    <field name="direction">move_down_right</field>
+  </block>
+</category>

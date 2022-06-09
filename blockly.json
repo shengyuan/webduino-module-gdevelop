@@ -1,0 +1,28 @@
+{
+  "name": "GDevelop Demo",
+  "version": "1.0.0",
+  "description": "結合 GDevelop Game 的積木",
+  "author": {
+    "name": "Sheng",
+    "email": "sheng@kingkit101.com"
+  },
+  "contributors": [],
+  "types": [
+    "gdevelop_demo_move"
+  ],
+  "category": "catEduExtension",
+  "scripts": [
+    "blockly/blocks.js",
+    "blockly/javascript.js"
+  ],
+  "dependencies": [
+    "mqttClient.min.js",
+    "index.js"
+  ],
+  "msg": "blockly/msg",
+  "blocksMsg": "blockly/msg/blocks",
+  "toolbox": "blockly/toolbox.xml",
+  "webInteraction": {
+    "html": "webInteraction/index.html"
+  }
+}

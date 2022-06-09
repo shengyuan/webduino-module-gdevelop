@@ -1,0 +1,1 @@
+MSG.catGdevelopDemo = "GDevelop Demo";
