@@ -15,6 +15,7 @@
     "projectUuid": "78fa9973-6111-43ed-8b07-b7a33cdd2c46",
     "scaleMode": "linear",
     "sizeOnStartupMode": "adaptWidth",
+    "templateSlug": "",
     "useExternalSourceFiles": false,
     "version": "1.0.0",
     "name": "EgameDemo",
@@ -9562,6 +9563,7 @@
       ],
       "objects": [
         {
+          "assetStoreId": "",
           "name": "Mindy",
           "tags": "",
           "type": "Sprite",
@@ -24622,6 +24624,7 @@
           ]
         },
         {
+          "assetStoreId": "",
           "name": "Bat",
           "tags": "",
           "type": "Sprite",
@@ -26158,6 +26161,7 @@
           ]
         },
         {
+          "assetStoreId": "",
           "name": "TopBlock",
           "tags": "",
           "type": "Sprite",
@@ -26203,6 +26207,7 @@
           ]
         },
         {
+          "assetStoreId": "",
           "name": "BlockGrass",
           "tags": "",
           "type": "Sprite",
@@ -26248,6 +26253,7 @@
           ]
         },
         {
+          "assetStoreId": "",
           "name": "Block",
           "tags": "",
           "type": "Sprite",
@@ -26293,6 +26299,7 @@
           ]
         },
         {
+          "assetStoreId": "",
           "name": "Bridge",
           "tags": "",
           "type": "Sprite",
@@ -26333,6 +26340,7 @@
           ]
         },
         {
+          "assetStoreId": "",
           "name": "FloorGrass",
           "tags": "",
           "type": "Sprite",
@@ -26397,6 +26405,7 @@
           ]
         },
         {
+          "assetStoreId": "",
           "name": "Floor",
           "tags": "",
           "type": "Sprite",
@@ -26648,6 +26657,7 @@
           ]
         },
         {
+          "assetStoreId": "",
           "name": "Tree",
           "tags": "",
           "type": "Sprite",
@@ -26693,6 +26703,7 @@
           ]
         },
         {
+          "assetStoreId": "",
           "name": "Rock",
           "tags": "",
           "type": "Sprite",
@@ -26738,6 +26749,7 @@
           ]
         },
         {
+          "assetStoreId": "",
           "name": "WoodSign",
           "tags": "",
           "type": "Sprite",
@@ -26783,6 +26795,7 @@
           ]
         },
         {
+          "assetStoreId": "",
           "height": 32,
           "name": "SmallObstacle",
           "tags": "",
@@ -26799,6 +26812,7 @@
           ]
         },
         {
+          "assetStoreId": "",
           "name": "TileRowObstacle",
           "tags": "",
           "type": "Sprite",
@@ -26863,6 +26877,7 @@
           ]
         },
         {
+          "assetStoreId": "",
           "name": "TileColumnObstacle",
           "tags": "",
           "type": "Sprite",
@@ -26927,6 +26942,7 @@
           ]
         },
         {
+          "assetStoreId": "",
           "name": "TileObstacle",
           "tags": "",
           "type": "Sprite",
@@ -26991,6 +27007,7 @@
           ]
         },
         {
+          "assetStoreId": "",
           "name": "Coin",
           "tags": "",
           "type": "Sprite",
@@ -27082,6 +27099,7 @@
           ]
         },
         {
+          "assetStoreId": "",
           "bold": false,
           "italic": false,
           "name": "NewText",
@@ -27102,6 +27120,7 @@
           }
         },
         {
+          "assetStoreId": "",
           "name": "MoveArea_left",
           "tags": "",
           "type": "Sprite",
@@ -27161,6 +27180,7 @@
           ]
         },
         {
+          "assetStoreId": "",
           "name": "MoveArea_right",
           "tags": "",
           "type": "Sprite",
@@ -27220,6 +27240,7 @@
           ]
         },
         {
+          "assetStoreId": "",
           "name": "MoveArea_bottom",
           "tags": "",
           "type": "Sprite",
@@ -27279,6 +27300,7 @@
           ]
         },
         {
+          "assetStoreId": "",
           "name": "MoveArea_top",
           "tags": "",
           "type": "Sprite",
@@ -27338,6 +27360,7 @@
           ]
         },
         {
+          "assetStoreId": "",
           "name": "MoveArea_right_bottom",
           "tags": "",
           "type": "Sprite",
@@ -27397,6 +27420,7 @@
           ]
         },
         {
+          "assetStoreId": "",
           "name": "MoveArea_right_top",
           "tags": "",
           "type": "Sprite",
@@ -27456,6 +27480,7 @@
           ]
         },
         {
+          "assetStoreId": "",
           "name": "MoveArea_left_top",
           "tags": "",
           "type": "Sprite",
@@ -27515,6 +27540,7 @@
           ]
         },
         {
+          "assetStoreId": "",
           "name": "MoveArea_left_bottom",
           "tags": "",
           "type": "Sprite",
@@ -27574,6 +27600,7 @@
           ]
         },
         {
+          "assetStoreId": "",
           "name": "MoveArea_target_point",
           "tags": "",
           "type": "Sprite",
@@ -27633,6 +27660,7 @@
           ]
         },
         {
+          "assetStoreId": "",
           "bold": true,
           "italic": false,
           "name": "time_count",
@@ -27653,6 +27681,7 @@
           }
         },
         {
+          "assetStoreId": "",
           "bold": true,
           "italic": false,
           "name": "coins",
@@ -27679,27 +27708,28 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "初始化",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
                   "type": {
-                    "inverted": false,
                     "value": "DepartScene"
                   },
                   "parameters": [
                     ""
-                  ],
-                  "subInstructions": []
+                  ]
                 }
               ],
               "actions": [],
               "events": [
                 {
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::Comment",
                   "color": {
                     "b": 109,
@@ -27713,24 +27743,23 @@
                   "comment2": ""
                 },
                 {
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [],
                   "actions": [
                     {
                       "type": {
-                        "inverted": false,
                         "value": "SetSceneVariableAsBoolean"
                       },
                       "parameters": [
                         "mqttConnected",
                         "False"
-                      ],
-                      "subInstructions": []
+                      ]
                     }
-                  ],
-                  "events": []
+                  ]
                 },
                 {
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::Comment",
                   "color": {
                     "b": 109,
@@ -27744,25 +27773,24 @@
                   "comment2": ""
                 },
                 {
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [],
                   "actions": [
                     {
                       "type": {
-                        "inverted": false,
                         "value": "Opacity"
                       },
                       "parameters": [
                         "MovingMark",
                         "=",
                         "0.2"
-                      ],
-                      "subInstructions": []
+                      ]
                     }
-                  ],
-                  "events": []
+                  ]
                 },
                 {
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::Comment",
                   "color": {
                     "b": 109,
@@ -27776,24 +27804,23 @@
                   "comment2": ""
                 },
                 {
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [],
                   "actions": [
                     {
                       "type": {
-                        "inverted": false,
                         "value": "SetSceneVariableAsBoolean"
                       },
                       "parameters": [
                         "KeyboardControl",
-                        "False"
-                      ],
-                      "subInstructions": []
+                        "True"
+                      ]
                     }
-                  ],
-                  "events": []
+                  ]
                 },
                 {
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::Comment",
                   "color": {
                     "b": 109,
@@ -27807,24 +27834,23 @@
                   "comment2": ""
                 },
                 {
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [],
                   "actions": [
                     {
                       "type": {
-                        "inverted": false,
                         "value": "SetSceneVariableAsBoolean"
                       },
                       "parameters": [
                         "MouseControl",
-                        "False"
-                      ],
-                      "subInstructions": []
+                        "True"
+                      ]
                     }
-                  ],
-                  "events": []
+                  ]
                 },
                 {
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::Comment",
                   "color": {
                     "b": 109,
@@ -27838,35 +27864,32 @@
                   "comment2": ""
                 },
                 {
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [],
                   "actions": [
                     {
                       "type": {
-                        "inverted": false,
                         "value": "SetSceneVariableAsBoolean"
                       },
                       "parameters": [
                         "DebugMode",
                         "False"
-                      ],
-                      "subInstructions": []
+                      ]
                     },
                     {
                       "type": {
-                        "inverted": false,
                         "value": "SetSceneVariableAsBoolean"
                       },
                       "parameters": [
                         "CameraMoveByMouse",
-                        "True"
-                      ],
-                      "subInstructions": []
+                        "False"
+                      ]
                     }
-                  ],
-                  "events": []
+                  ]
                 },
                 {
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::Comment",
                   "color": {
                     "b": 109,
@@ -27880,37 +27903,34 @@
                   "comment2": ""
                 },
                 {
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
                       "type": {
-                        "inverted": false,
                         "value": "SceneVariableAsBoolean"
                       },
                       "parameters": [
                         "DebugMode",
                         "True"
-                      ],
-                      "subInstructions": []
+                      ]
                     }
                   ],
                   "actions": [
                     {
                       "type": {
-                        "inverted": false,
                         "value": "Opacity"
                       },
                       "parameters": [
                         "MovingMark",
                         "=",
                         "1"
-                      ],
-                      "subInstructions": []
+                      ]
                     }
-                  ],
-                  "events": []
+                  ]
                 },
                 {
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::Comment",
                   "color": {
                     "b": 109,
@@ -27924,6 +27944,7 @@
                   "comment2": ""
                 },
                 {
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -27934,26 +27955,23 @@
                       "parameters": [
                         "DebugMode",
                         "True"
-                      ],
-                      "subInstructions": []
+                      ]
                     }
                   ],
                   "actions": [
                     {
                       "type": {
-                        "inverted": false,
                         "value": "HideLayer"
                       },
                       "parameters": [
                         "",
                         "\"ForTest\""
-                      ],
-                      "subInstructions": []
+                      ]
                     }
-                  ],
-                  "events": []
+                  ]
                 },
                 {
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::Comment",
                   "color": {
                     "b": 109,
@@ -27967,23 +27985,22 @@
                   "comment2": ""
                 },
                 {
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [],
                   "actions": [
                     {
                       "type": {
-                        "inverted": false,
                         "value": "Cache"
                       },
                       "parameters": [
                         "Bat"
-                      ],
-                      "subInstructions": []
+                      ]
                     }
-                  ],
-                  "events": []
+                  ]
                 },
                 {
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::Comment",
                   "color": {
                     "b": 109,
@@ -27997,47 +28014,41 @@
                   "comment2": ""
                 },
                 {
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [],
                   "actions": [
                     {
                       "type": {
-                        "inverted": false,
                         "value": "GameConfig::DefaultZoom"
                       },
                       "parameters": [
                         "",
                         "\"\"",
                         ""
-                      ],
-                      "subInstructions": []
+                      ]
                     },
                     {
                       "type": {
-                        "inverted": false,
                         "value": "GameConfig::DefaultZoom"
                       },
                       "parameters": [
                         "",
                         "\"Level1\"",
                         ""
-                      ],
-                      "subInstructions": []
+                      ]
                     },
                     {
                       "type": {
-                        "inverted": false,
                         "value": "GameConfig::DefaultZoom"
                       },
                       "parameters": [
                         "",
                         "\"Level2\"",
                         ""
-                      ],
-                      "subInstructions": []
+                      ]
                     }
-                  ],
-                  "events": []
+                  ]
                 }
               ]
             }
@@ -28055,52 +28066,46 @@
           "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
                   "type": {
-                    "inverted": false,
                     "value": "DepartScene"
                   },
                   "parameters": [
                     ""
-                  ],
-                  "subInstructions": []
+                  ]
                 }
               ],
               "actions": [
                 {
                   "type": {
-                    "inverted": false,
                     "value": "ResetTimer"
                   },
                   "parameters": [
                     "",
                     "\"timer\""
-                  ],
-                  "subInstructions": []
+                  ]
                 },
                 {
                   "type": {
-                    "inverted": false,
                     "value": "ModVarScene"
                   },
                   "parameters": [
                     "time",
                     "=",
                     "0"
-                  ],
-                  "subInstructions": []
+                  ]
                 }
-              ],
-              "events": []
+              ]
             },
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
                   "type": {
-                    "inverted": false,
                     "value": "CompareTimer"
                   },
                   "parameters": [
@@ -28108,59 +28113,49 @@
                     "\"timer\"",
                     ">",
                     "1"
-                  ],
-                  "subInstructions": []
+                  ]
                 }
               ],
               "actions": [
                 {
                   "type": {
-                    "inverted": false,
                     "value": "ModVarScene"
                   },
                   "parameters": [
                     "time",
                     "+",
                     "1"
-                  ],
-                  "subInstructions": []
+                  ]
                 },
                 {
                   "type": {
-                    "inverted": false,
                     "value": "ResetTimer"
                   },
                   "parameters": [
                     "",
                     "\"timer\""
-                  ],
-                  "subInstructions": []
+                  ]
                 },
                 {
                   "type": {
-                    "inverted": false,
                     "value": "TextObject::String"
                   },
                   "parameters": [
                     "time_count",
                     "=",
                     "\"遊戲時間: \" + TimeFormatter::SecondsToHHMMSS(Variable(time))"
-                  ],
-                  "subInstructions": []
+                  ]
                 },
                 {
                   "type": {
-                    "inverted": false,
                     "value": "TextObject::SetTextAlignment"
                   },
                   "parameters": [
                     "time_count",
                     "\"right\""
-                  ],
-                  "subInstructions": []
+                  ]
                 }
-              ],
-              "events": []
+              ]
             }
           ],
           "parameters": []
@@ -28176,23 +28171,21 @@
           "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [],
               "actions": [
                 {
                   "type": {
-                    "inverted": false,
                     "value": "TextObject::String"
                   },
                   "parameters": [
                     "coins",
                     "=",
                     "\"x \" + ToString(Count(Coin) - 1)"
-                  ],
-                  "subInstructions": []
+                  ]
                 }
-              ],
-              "events": []
+              ]
             }
           ],
           "parameters": []
@@ -28208,6 +28201,7 @@
           "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Comment",
               "color": {
                 "b": 254,
@@ -28221,48 +28215,43 @@
               "comment2": ""
             },
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
                   "type": {
-                    "inverted": false,
                     "value": "DepartScene"
                   },
                   "parameters": [
                     ""
-                  ],
-                  "subInstructions": []
+                  ]
                 }
               ],
               "actions": [
                 {
                   "type": {
-                    "inverted": false,
                     "value": "ModVarScene"
                   },
                   "parameters": [
                     "MindyY",
                     "=",
                     "280"
-                  ],
-                  "subInstructions": []
+                  ]
                 },
                 {
                   "type": {
-                    "inverted": false,
                     "value": "ModVarScene"
                   },
                   "parameters": [
                     "MindyX",
                     "=",
                     "750"
-                  ],
-                  "subInstructions": []
+                  ]
                 }
-              ],
-              "events": []
+              ]
             },
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Comment",
               "color": {
                 "b": 254,
@@ -28276,6 +28265,7 @@
               "comment2": ""
             },
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Comment",
               "color": {
                 "b": 109,
@@ -28289,37 +28279,34 @@
               "comment2": ""
             },
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
                   "type": {
-                    "inverted": false,
                     "value": "TopDownMovementBehavior::IsMoving"
                   },
                   "parameters": [
                     "Mindy",
                     "TopDownMovement"
-                  ],
-                  "subInstructions": []
+                  ]
                 }
               ],
               "actions": [
                 {
                   "type": {
-                    "inverted": false,
                     "value": "ChangeAnimation"
                   },
                   "parameters": [
                     "Mindy",
                     "=",
                     "1 + mod(round((Mindy.TopDownMovement::Angle())/45+1), 8)"
-                  ],
-                  "subInstructions": []
+                  ]
                 }
-              ],
-              "events": []
+              ]
             },
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -28330,27 +28317,24 @@
                   "parameters": [
                     "Mindy",
                     "TopDownMovement"
-                  ],
-                  "subInstructions": []
+                  ]
                 }
               ],
               "actions": [
                 {
                   "type": {
-                    "inverted": false,
                     "value": "ChangeAnimation"
                   },
                   "parameters": [
                     "Mindy",
                     "=",
                     "0"
-                  ],
-                  "subInstructions": []
+                  ]
                 }
-              ],
-              "events": []
+              ]
             },
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Comment",
               "color": {
                 "b": 254,
@@ -28369,35 +28353,31 @@
               "conditions": [
                 {
                   "type": {
-                    "inverted": false,
                     "value": "MouseButtonPressed"
                   },
                   "parameters": [
                     "",
                     "Left"
-                  ],
-                  "subInstructions": []
+                  ]
                 },
                 {
                   "type": {
-                    "inverted": false,
                     "value": "SceneVariableAsBoolean"
                   },
                   "parameters": [
                     "MouseControl",
                     "True"
-                  ],
-                  "subInstructions": []
+                  ]
                 }
               ],
               "actions": [],
               "events": [
                 {
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
                       "type": {
-                        "inverted": false,
                         "value": "MouseY"
                       },
                       "parameters": [
@@ -28406,31 +28386,27 @@
                         "Mindy.Y() - 15",
                         "\"\"",
                         ""
-                      ],
-                      "subInstructions": []
+                      ]
                     }
                   ],
                   "actions": [
                     {
                       "type": {
-                        "inverted": false,
                         "value": "TopDownMovementBehavior::SimulateUpKey"
                       },
                       "parameters": [
                         "Mindy",
                         "TopDownMovement"
-                      ],
-                      "subInstructions": []
+                      ]
                     }
-                  ],
-                  "events": []
+                  ]
                 },
                 {
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
                       "type": {
-                        "inverted": false,
                         "value": "MouseY"
                       },
                       "parameters": [
@@ -28439,31 +28415,27 @@
                         "Mindy.Y() + 15",
                         "\"\"",
                         ""
-                      ],
-                      "subInstructions": []
+                      ]
                     }
                   ],
                   "actions": [
                     {
                       "type": {
-                        "inverted": false,
                         "value": "TopDownMovementBehavior::SimulateDownKey"
                       },
                       "parameters": [
                         "Mindy",
                         "TopDownMovement"
-                      ],
-                      "subInstructions": []
+                      ]
                     }
-                  ],
-                  "events": []
+                  ]
                 },
                 {
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
                       "type": {
-                        "inverted": false,
                         "value": "MouseX"
                       },
                       "parameters": [
@@ -28472,31 +28444,27 @@
                         "Mindy.X() - 15",
                         "\"\"",
                         ""
-                      ],
-                      "subInstructions": []
+                      ]
                     }
                   ],
                   "actions": [
                     {
                       "type": {
-                        "inverted": false,
                         "value": "TopDownMovementBehavior::SimulateLeftKey"
                       },
                       "parameters": [
                         "Mindy",
                         "TopDownMovement"
-                      ],
-                      "subInstructions": []
+                      ]
                     }
-                  ],
-                  "events": []
+                  ]
                 },
                 {
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
                       "type": {
-                        "inverted": false,
                         "value": "MouseX"
                       },
                       "parameters": [
@@ -28505,28 +28473,25 @@
                         "Mindy.X() + 15",
                         "\"\"",
                         ""
-                      ],
-                      "subInstructions": []
+                      ]
                     }
                   ],
                   "actions": [
                     {
                       "type": {
-                        "inverted": false,
                         "value": "TopDownMovementBehavior::SimulateRightKey"
                       },
                       "parameters": [
                         "Mindy",
                         "TopDownMovement"
-                      ],
-                      "subInstructions": []
+                      ]
                     }
-                  ],
-                  "events": []
+                  ]
                 }
               ]
             },
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Comment",
               "color": {
                 "b": 254,
@@ -28545,37 +28510,33 @@
               "conditions": [
                 {
                   "type": {
-                    "inverted": false,
                     "value": "SceneVariableAsBoolean"
                   },
                   "parameters": [
                     "KeyboardControl",
                     "True"
-                  ],
-                  "subInstructions": []
+                  ]
                 }
               ],
               "actions": [],
               "events": [
                 {
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
                       "type": {
-                        "inverted": false,
                         "value": "KeyReleased"
                       },
                       "parameters": [
                         "",
                         "w"
-                      ],
-                      "subInstructions": []
+                      ]
                     }
                   ],
                   "actions": [
                     {
                       "type": {
-                        "inverted": false,
                         "value": "Create"
                       },
                       "parameters": [
@@ -28584,31 +28545,27 @@
                         "MoveArea_top.X()",
                         "MoveArea_top.Y()",
                         ""
-                      ],
-                      "subInstructions": []
+                      ]
                     }
-                  ],
-                  "events": []
+                  ]
                 },
                 {
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
                       "type": {
-                        "inverted": false,
                         "value": "KeyReleased"
                       },
                       "parameters": [
                         "",
                         "s"
-                      ],
-                      "subInstructions": []
+                      ]
                     }
                   ],
                   "actions": [
                     {
                       "type": {
-                        "inverted": false,
                         "value": "Create"
                       },
                       "parameters": [
@@ -28617,31 +28574,27 @@
                         "MoveArea_bottom.X()",
                         "MoveArea_bottom.Y()",
                         ""
-                      ],
-                      "subInstructions": []
+                      ]
                     }
-                  ],
-                  "events": []
+                  ]
                 },
                 {
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
                       "type": {
-                        "inverted": false,
                         "value": "KeyReleased"
                       },
                       "parameters": [
                         "",
                         "d"
-                      ],
-                      "subInstructions": []
+                      ]
                     }
                   ],
                   "actions": [
                     {
                       "type": {
-                        "inverted": false,
                         "value": "Create"
                       },
                       "parameters": [
@@ -28650,31 +28603,27 @@
                         "MoveArea_right.X()",
                         "MoveArea_right.Y()",
                         ""
-                      ],
-                      "subInstructions": []
+                      ]
                     }
-                  ],
-                  "events": []
+                  ]
                 },
                 {
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
                       "type": {
-                        "inverted": false,
                         "value": "KeyReleased"
                       },
                       "parameters": [
                         "",
                         "a"
-                      ],
-                      "subInstructions": []
+                      ]
                     }
                   ],
                   "actions": [
                     {
                       "type": {
-                        "inverted": false,
                         "value": "Create"
                       },
                       "parameters": [
@@ -28683,31 +28632,27 @@
                         "MoveArea_left.X()",
                         "MoveArea_left.Y()",
                         ""
-                      ],
-                      "subInstructions": []
+                      ]
                     }
-                  ],
-                  "events": []
+                  ]
                 },
                 {
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
                       "type": {
-                        "inverted": false,
                         "value": "KeyReleased"
                       },
                       "parameters": [
                         "",
                         "e"
-                      ],
-                      "subInstructions": []
+                      ]
                     }
                   ],
                   "actions": [
                     {
                       "type": {
-                        "inverted": false,
                         "value": "Create"
                       },
                       "parameters": [
@@ -28716,31 +28661,27 @@
                         "MoveArea_right_top.X()",
                         "MoveArea_right_top.Y()",
                         ""
-                      ],
-                      "subInstructions": []
+                      ]
                     }
-                  ],
-                  "events": []
+                  ]
                 },
                 {
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
                       "type": {
-                        "inverted": false,
                         "value": "KeyReleased"
                       },
                       "parameters": [
                         "",
                         "q"
-                      ],
-                      "subInstructions": []
+                      ]
                     }
                   ],
                   "actions": [
                     {
                       "type": {
-                        "inverted": false,
                         "value": "Create"
                       },
                       "parameters": [
@@ -28749,31 +28690,27 @@
                         "MoveArea_left_top.X()",
                         "MoveArea_left_top.Y()",
                         ""
-                      ],
-                      "subInstructions": []
+                      ]
                     }
-                  ],
-                  "events": []
+                  ]
                 },
                 {
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
                       "type": {
-                        "inverted": false,
                         "value": "KeyReleased"
                       },
                       "parameters": [
                         "",
                         "z"
-                      ],
-                      "subInstructions": []
+                      ]
                     }
                   ],
                   "actions": [
                     {
                       "type": {
-                        "inverted": false,
                         "value": "Create"
                       },
                       "parameters": [
@@ -28782,31 +28719,27 @@
                         "MoveArea_left_bottom.X()",
                         "MoveArea_left_bottom.Y()",
                         ""
-                      ],
-                      "subInstructions": []
+                      ]
                     }
-                  ],
-                  "events": []
+                  ]
                 },
                 {
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
                       "type": {
-                        "inverted": false,
                         "value": "KeyReleased"
                       },
                       "parameters": [
                         "",
                         "c"
-                      ],
-                      "subInstructions": []
+                      ]
                     }
                   ],
                   "actions": [
                     {
                       "type": {
-                        "inverted": false,
                         "value": "Create"
                       },
                       "parameters": [
@@ -28815,11 +28748,9 @@
                         "MoveArea_right_bottom.X()",
                         "MoveArea_right_bottom.Y()",
                         ""
-                      ],
-                      "subInstructions": []
+                      ]
                     }
-                  ],
-                  "events": []
+                  ]
                 }
               ]
             }
@@ -28837,32 +28768,29 @@
           "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
                   "type": {
-                    "inverted": false,
                     "value": "BuiltinCommonInstructions::Or"
                   },
                   "parameters": [],
                   "subInstructions": [
                     {
                       "type": {
-                        "inverted": false,
                         "value": "BuiltinCommonInstructions::And"
                       },
                       "parameters": [],
                       "subInstructions": [
                         {
                           "type": {
-                            "inverted": false,
                             "value": "SceneVariableAsBoolean"
                           },
                           "parameters": [
                             "mqttMessageExecuting",
                             "True"
-                          ],
-                          "subInstructions": []
+                          ]
                         },
                         {
                           "type": {
@@ -28872,21 +28800,18 @@
                           "parameters": [
                             "",
                             "Left"
-                          ],
-                          "subInstructions": []
+                          ]
                         }
                       ]
                     },
                     {
                       "type": {
-                        "inverted": false,
                         "value": "SceneVariableAsBoolean"
                       },
                       "parameters": [
                         "MouseControl",
                         "True"
-                      ],
-                      "subInstructions": []
+                      ]
                     }
                   ]
                 }
@@ -28894,7 +28819,6 @@
               "actions": [
                 {
                   "type": {
-                    "inverted": false,
                     "value": "CentreCamera"
                   },
                   "parameters": [
@@ -28903,12 +28827,10 @@
                     "yes",
                     "\"\"",
                     "0"
-                  ],
-                  "subInstructions": []
+                  ]
                 },
                 {
                   "type": {
-                    "inverted": false,
                     "value": "CentreCamera"
                   },
                   "parameters": [
@@ -28917,12 +28839,10 @@
                     "yes",
                     "\"Level1\"",
                     "0"
-                  ],
-                  "subInstructions": []
+                  ]
                 },
                 {
                   "type": {
-                    "inverted": false,
                     "value": "CentreCamera"
                   },
                   "parameters": [
@@ -28931,31 +28851,27 @@
                     "yes",
                     "\"Level2\"",
                     "0"
-                  ],
-                  "subInstructions": []
+                  ]
                 }
-              ],
-              "events": []
+              ]
             },
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
                   "type": {
-                    "inverted": false,
                     "value": "SceneVariableAsBoolean"
                   },
                   "parameters": [
                     "CameraMoveByMouse",
                     "True"
-                  ],
-                  "subInstructions": []
+                  ]
                 }
               ],
               "actions": [
                 {
                   "type": {
-                    "inverted": false,
                     "value": "DragCameraWithPointer::DragCameraWithPointer"
                   },
                   "parameters": [
@@ -28965,12 +28881,10 @@
                     "\"both\"",
                     "Left",
                     ""
-                  ],
-                  "subInstructions": []
+                  ]
                 },
                 {
                   "type": {
-                    "inverted": false,
                     "value": "DragCameraWithPointer::DragCameraWithPointer"
                   },
                   "parameters": [
@@ -28980,12 +28894,10 @@
                     "\"both\"",
                     "Left",
                     ""
-                  ],
-                  "subInstructions": []
+                  ]
                 },
                 {
                   "type": {
-                    "inverted": false,
                     "value": "DragCameraWithPointer::DragCameraWithPointer"
                   },
                   "parameters": [
@@ -28995,30 +28907,26 @@
                     "\"both\"",
                     "Left",
                     ""
-                  ],
-                  "subInstructions": []
+                  ]
                 }
-              ],
-              "events": []
+              ]
             },
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
                   "type": {
-                    "inverted": false,
                     "value": "IsMouseWheelScrollingDown"
                   },
                   "parameters": [
                     ""
-                  ],
-                  "subInstructions": []
+                  ]
                 }
               ],
               "actions": [
                 {
                   "type": {
-                    "inverted": false,
                     "value": "CameraZoom::ZoomWithSpeed"
                   },
                   "parameters": [
@@ -29027,12 +28935,10 @@
                     "\"\"",
                     "0",
                     ""
-                  ],
-                  "subInstructions": []
+                  ]
                 },
                 {
                   "type": {
-                    "inverted": false,
                     "value": "CameraZoom::ZoomWithSpeed"
                   },
                   "parameters": [
@@ -29041,12 +28947,10 @@
                     "\"Level1\"",
                     "0",
                     ""
-                  ],
-                  "subInstructions": []
+                  ]
                 },
                 {
                   "type": {
-                    "inverted": false,
                     "value": "CameraZoom::ZoomWithSpeed"
                   },
                   "parameters": [
@@ -29055,30 +28959,26 @@
                     "\"Level2\"",
                     "0",
                     ""
-                  ],
-                  "subInstructions": []
+                  ]
                 }
-              ],
-              "events": []
+              ]
             },
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
                   "type": {
-                    "inverted": false,
                     "value": "IsMouseWheelScrollingUp"
                   },
                   "parameters": [
                     ""
-                  ],
-                  "subInstructions": []
+                  ]
                 }
               ],
               "actions": [
                 {
                   "type": {
-                    "inverted": false,
                     "value": "CameraZoom::ZoomWithSpeed"
                   },
                   "parameters": [
@@ -29087,12 +28987,10 @@
                     "\"\"",
                     "0",
                     ""
-                  ],
-                  "subInstructions": []
+                  ]
                 },
                 {
                   "type": {
-                    "inverted": false,
                     "value": "CameraZoom::ZoomWithSpeed"
                   },
                   "parameters": [
@@ -29101,12 +28999,10 @@
                     "\"Level1\"",
                     "0",
                     ""
-                  ],
-                  "subInstructions": []
+                  ]
                 },
                 {
                   "type": {
-                    "inverted": false,
                     "value": "CameraZoom::ZoomWithSpeed"
                   },
                   "parameters": [
@@ -29115,11 +29011,9 @@
                     "\"Level2\"",
                     "0",
                     ""
-                  ],
-                  "subInstructions": []
+                  ]
                 }
-              ],
-              "events": []
+              ]
             }
           ],
           "parameters": []
@@ -29135,30 +29029,28 @@
           "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [],
               "actions": [
                 {
                   "type": {
-                    "inverted": false,
                     "value": "SeparateFromObjects"
                   },
                   "parameters": [
                     "Mindy",
                     "Obstacle",
                     ""
-                  ],
-                  "subInstructions": []
+                  ]
                 }
-              ],
-              "events": []
+              ]
             },
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
                   "type": {
-                    "inverted": false,
                     "value": "CollisionNP"
                   },
                   "parameters": [
@@ -29167,31 +29059,27 @@
                     "",
                     "",
                     ""
-                  ],
-                  "subInstructions": []
+                  ]
                 }
               ],
               "actions": [
                 {
                   "type": {
-                    "inverted": false,
                     "value": "Delete"
                   },
                   "parameters": [
                     "MoveArea_target_point",
                     ""
-                  ],
-                  "subInstructions": []
+                  ]
                 }
-              ],
-              "events": []
+              ]
             },
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
                   "type": {
-                    "inverted": false,
                     "value": "CollisionNP"
                   },
                   "parameters": [
@@ -29200,31 +29088,29 @@
                     "",
                     "",
                     ""
-                  ],
-                  "subInstructions": []
+                  ]
                 }
               ],
               "actions": [],
               "events": [
                 {
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [],
                   "actions": [
                     {
                       "type": {
-                        "inverted": false,
                         "value": "Delete"
                       },
                       "parameters": [
                         "Coin",
                         ""
-                      ],
-                      "subInstructions": []
+                      ]
                     }
-                  ],
-                  "events": []
+                  ]
                 },
                 {
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::Comment",
                   "color": {
                     "b": 109,
@@ -29238,12 +29124,12 @@
                   "comment2": ""
                 },
                 {
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [],
                   "actions": [
                     {
                       "type": {
-                        "inverted": false,
                         "value": "PlayMusic"
                       },
                       "parameters": [
@@ -29252,11 +29138,9 @@
                         "no",
                         "100",
                         "1"
-                      ],
-                      "subInstructions": []
+                      ]
                     }
-                  ],
-                  "events": []
+                  ]
                 }
               ]
             }
@@ -29275,6 +29159,7 @@
           "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -29287,14 +29172,12 @@
                     "Bat",
                     "100",
                     ""
-                  ],
-                  "subInstructions": []
+                  ]
                 }
               ],
               "actions": [
                 {
                   "type": {
-                    "inverted": false,
                     "value": "AddForceVersPos"
                   },
                   "parameters": [
@@ -29303,11 +29186,9 @@
                     "Mindy.PointY(\"origin\") - 60",
                     "200",
                     "0"
-                  ],
-                  "subInstructions": []
+                  ]
                 }
-              ],
-              "events": []
+              ]
             }
           ],
           "parameters": []
@@ -29323,50 +29204,45 @@
           "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
                   "type": {
-                    "inverted": false,
                     "value": "TopDownMovementBehavior::IsMoving"
                   },
                   "parameters": [
                     "Mindy",
                     "TopDownMovement"
-                  ],
-                  "subInstructions": []
+                  ]
                 }
               ],
               "actions": [],
               "events": [
                 {
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
                       "type": {
-                        "inverted": false,
                         "value": "CollisionPoint"
                       },
                       "parameters": [
                         "FloorGrass",
                         "Mindy.PointX(\"footcollis\")",
                         "Mindy.PointY(\"footcollis\")"
-                      ],
-                      "subInstructions": []
+                      ]
                     },
                     {
                       "type": {
-                        "inverted": false,
                         "value": "BuiltinCommonInstructions::Once"
                       },
-                      "parameters": [],
-                      "subInstructions": []
+                      "parameters": []
                     }
                   ],
                   "actions": [
                     {
                       "type": {
-                        "inverted": false,
                         "value": "PlaySoundCanal"
                       },
                       "parameters": [
@@ -29376,54 +29252,47 @@
                         "yes",
                         "10",
                         ""
-                      ],
-                      "subInstructions": []
+                      ]
                     }
-                  ],
-                  "events": []
+                  ]
                 },
                 {
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
                       "type": {
-                        "inverted": false,
                         "value": "CollisionPoint"
                       },
                       "parameters": [
                         "Floor",
                         "Mindy.PointX(\"footcollis\")",
                         "Mindy.PointY(\"footcollis\")"
-                      ],
-                      "subInstructions": []
+                      ]
                     },
                     {
                       "type": {
-                        "inverted": false,
                         "value": "BuiltinCommonInstructions::Once"
                       },
-                      "parameters": [],
-                      "subInstructions": []
+                      "parameters": []
                     }
                   ],
                   "actions": [
                     {
                       "type": {
-                        "inverted": false,
                         "value": "StopSoundCanal"
                       },
                       "parameters": [
                         "",
                         "1"
-                      ],
-                      "subInstructions": []
+                      ]
                     }
-                  ],
-                  "events": []
+                  ]
                 }
               ]
             },
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -29434,32 +29303,26 @@
                   "parameters": [
                     "Mindy",
                     "TopDownMovement"
-                  ],
-                  "subInstructions": []
+                  ]
                 },
                 {
                   "type": {
-                    "inverted": false,
                     "value": "BuiltinCommonInstructions::Once"
                   },
-                  "parameters": [],
-                  "subInstructions": []
+                  "parameters": []
                 }
               ],
               "actions": [
                 {
                   "type": {
-                    "inverted": false,
                     "value": "StopSoundCanal"
                   },
                   "parameters": [
                     "",
                     "1"
-                  ],
-                  "subInstructions": []
+                  ]
                 }
-              ],
-              "events": []
+              ]
             }
           ],
           "parameters": []
@@ -29469,11 +29332,13 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "移動標示",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Comment",
               "color": {
                 "b": 109,
@@ -29487,12 +29352,12 @@
               "comment2": ""
             },
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [],
               "actions": [
                 {
                   "type": {
-                    "inverted": false,
                     "value": "MettreXY"
                   },
                   "parameters": [
@@ -29501,12 +29366,10 @@
                     "Variable(MindyX)",
                     "=",
                     "Variable(MindyY)-75"
-                  ],
-                  "subInstructions": []
+                  ]
                 },
                 {
                   "type": {
-                    "inverted": false,
                     "value": "MettreXY"
                   },
                   "parameters": [
@@ -29515,12 +29378,10 @@
                     "Variable(MindyX)",
                     "=",
                     "Variable(MindyY)+75"
-                  ],
-                  "subInstructions": []
+                  ]
                 },
                 {
                   "type": {
-                    "inverted": false,
                     "value": "MettreXY"
                   },
                   "parameters": [
@@ -29529,12 +29390,10 @@
                     "Variable(MindyX)-150",
                     "=",
                     "Variable(MindyY)"
-                  ],
-                  "subInstructions": []
+                  ]
                 },
                 {
                   "type": {
-                    "inverted": false,
                     "value": "MettreXY"
                   },
                   "parameters": [
@@ -29543,12 +29402,10 @@
                     "Variable(MindyX)+150",
                     "=",
                     "Variable(MindyY)"
-                  ],
-                  "subInstructions": []
+                  ]
                 },
                 {
                   "type": {
-                    "inverted": false,
                     "value": "MettreXY"
                   },
                   "parameters": [
@@ -29557,12 +29414,10 @@
                     "Variable(MindyX)+75",
                     "=",
                     "Variable(MindyY)-37.5"
-                  ],
-                  "subInstructions": []
+                  ]
                 },
                 {
                   "type": {
-                    "inverted": false,
                     "value": "MettreXY"
                   },
                   "parameters": [
@@ -29571,12 +29426,10 @@
                     "Variable(MindyX)+75",
                     "=",
                     "Variable(MindyY)+37.5"
-                  ],
-                  "subInstructions": []
+                  ]
                 },
                 {
                   "type": {
-                    "inverted": false,
                     "value": "MettreXY"
                   },
                   "parameters": [
@@ -29585,12 +29438,10 @@
                     "Variable(MindyX)-75",
                     "=",
                     "Variable(MindyY)-37.5"
-                  ],
-                  "subInstructions": []
+                  ]
                 },
                 {
                   "type": {
-                    "inverted": false,
                     "value": "MettreXY"
                   },
                   "parameters": [
@@ -29599,13 +29450,12 @@
                     "Variable(MindyX)-75",
                     "=",
                     "Variable(MindyY)+37.5"
-                  ],
-                  "subInstructions": []
+                  ]
                 }
-              ],
-              "events": []
+              ]
             },
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Comment",
               "color": {
                 "b": 109,
@@ -29619,24 +29469,24 @@
               "comment2": ""
             },
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
                   "type": {
-                    "inverted": false,
                     "value": "NbObjet"
                   },
                   "parameters": [
                     "MoveArea_target_point",
                     ">",
                     "0"
-                  ],
-                  "subInstructions": []
+                  ]
                 }
               ],
               "actions": [],
               "events": [
                 {
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::Comment",
                   "color": {
                     "b": 109,
@@ -29650,24 +29500,23 @@
                   "comment2": ""
                 },
                 {
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [],
                   "actions": [
                     {
                       "type": {
-                        "inverted": false,
                         "value": "SetSceneVariableAsBoolean"
                       },
                       "parameters": [
                         "mqttMessageExecuting",
                         "True"
-                      ],
-                      "subInstructions": []
+                      ]
                     }
-                  ],
-                  "events": []
+                  ]
                 },
                 {
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::Comment",
                   "color": {
                     "b": 109,
@@ -29681,36 +29530,32 @@
                   "comment2": ""
                 },
                 {
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [],
                   "actions": [
                     {
                       "type": {
-                        "inverted": false,
                         "value": "ModVarScene"
                       },
                       "parameters": [
                         "MindyX",
                         "=",
                         "MoveArea_target_point.X()"
-                      ],
-                      "subInstructions": []
+                      ]
                     },
                     {
                       "type": {
-                        "inverted": false,
                         "value": "ModVarScene"
                       },
                       "parameters": [
                         "MindyY",
                         "=",
                         "MoveArea_target_point.Y()"
-                      ],
-                      "subInstructions": []
+                      ]
                     },
                     {
                       "type": {
-                        "inverted": false,
                         "value": "MoveArea::moveToTargetPoint"
                       },
                       "parameters": [
@@ -29720,13 +29565,12 @@
                         "Variable(MindyY)",
                         "TopDownMovement",
                         ""
-                      ],
-                      "subInstructions": []
+                      ]
                     }
-                  ],
-                  "events": []
+                  ]
                 },
                 {
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::Comment",
                   "color": {
                     "b": 109,
@@ -29740,37 +29584,34 @@
                   "comment2": ""
                 },
                 {
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
                       "type": {
-                        "inverted": false,
                         "value": "SceneVariableAsBoolean"
                       },
                       "parameters": [
                         "DebugMode",
                         "True"
-                      ],
-                      "subInstructions": []
+                      ]
                     }
                   ],
                   "actions": [
                     {
                       "type": {
-                        "inverted": false,
                         "value": "TextObject::String"
                       },
                       "parameters": [
                         "NewText",
                         "=",
                         "ToString(Mindy.Distance(MoveArea_target_point)) + \", X:\" + ToString(Variable(MindyX)) + \", Y:\" +  ToString(Variable(MindyY))"
-                      ],
-                      "subInstructions": []
+                      ]
                     }
-                  ],
-                  "events": []
+                  ]
                 },
                 {
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::Comment",
                   "color": {
                     "b": 109,
@@ -29784,46 +29625,40 @@
                   "comment2": ""
                 },
                 {
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
                       "type": {
-                        "inverted": false,
                         "value": "CollisionPoint"
                       },
                       "parameters": [
                         "Mindy",
                         "MoveArea_target_point.PointX(\"Origin\")",
                         "MoveArea_target_point.PointY(\"Origin\")"
-                      ],
-                      "subInstructions": []
+                      ]
                     }
                   ],
                   "actions": [
                     {
                       "type": {
-                        "inverted": false,
                         "value": "SetSceneVariableAsBoolean"
                       },
                       "parameters": [
                         "mqttMessageExecuting",
                         "False"
-                      ],
-                      "subInstructions": []
+                      ]
                     },
                     {
                       "type": {
-                        "inverted": false,
                         "value": "Delete"
                       },
                       "parameters": [
                         "MoveArea_target_point",
                         ""
-                      ],
-                      "subInstructions": []
+                      ]
                     }
-                  ],
-                  "events": []
+                  ]
                 }
               ]
             }
@@ -29841,22 +29676,22 @@
           "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
                   "type": {
-                    "inverted": false,
                     "value": "DepartScene"
                   },
                   "parameters": [
                     ""
-                  ],
-                  "subInstructions": []
+                  ]
                 }
               ],
               "actions": [],
               "events": [
                 {
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::Comment",
                   "color": {
                     "b": 109,
@@ -29871,37 +29706,34 @@
                 },
                 {
                   "disabled": true,
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [],
                   "actions": [
                     {
                       "type": {
-                        "inverted": false,
                         "value": "ModVarGlobalTxt"
                       },
                       "parameters": [
                         "mqtt_topic_subscribe",
                         "=",
                         "GlobalVariableString(MQTT_SUFFIX_SUBSCRIBE)"
-                      ],
-                      "subInstructions": []
+                      ]
                     },
                     {
                       "type": {
-                        "inverted": false,
                         "value": "ModVarGlobalTxt"
                       },
                       "parameters": [
                         "mqtt_topic_publish",
                         "=",
                         "GlobalVariableString(MQTT_SUFFIX_PUBLISH)"
-                      ],
-                      "subInstructions": []
+                      ]
                     }
-                  ],
-                  "events": []
+                  ]
                 },
                 {
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::Comment",
                   "color": {
                     "b": 109,
@@ -29915,12 +29747,12 @@
                   "comment2": ""
                 },
                 {
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [],
                   "actions": [
                     {
                       "type": {
-                        "inverted": false,
                         "value": "Webduino MQTT::subscribe"
                       },
                       "parameters": [
@@ -29929,15 +29761,14 @@
                         "0",
                         "no",
                         ""
-                      ],
-                      "subInstructions": []
+                      ]
                     }
-                  ],
-                  "events": []
+                  ]
                 }
               ]
             },
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Comment",
               "color": {
                 "b": 109,
@@ -29951,58 +29782,50 @@
               "comment2": ""
             },
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
                   "type": {
-                    "inverted": false,
                     "value": "Webduino MQTT::isConnected"
                   },
                   "parameters": [
                     "",
                     ""
-                  ],
-                  "subInstructions": []
+                  ]
                 },
                 {
                   "type": {
-                    "inverted": false,
                     "value": "SceneVariableAsBoolean"
                   },
                   "parameters": [
                     "mqttConnected",
                     "False"
-                  ],
-                  "subInstructions": []
+                  ]
                 }
               ],
               "actions": [
                 {
                   "type": {
-                    "inverted": false,
                     "value": "DebuggerTools::ConsoleLog"
                   },
                   "parameters": [
                     "\"mqtt 已連線\"",
                     "\"info\"",
                     ""
-                  ],
-                  "subInstructions": []
+                  ]
                 },
                 {
                   "type": {
-                    "inverted": false,
                     "value": "SetSceneVariableAsBoolean"
                   },
                   "parameters": [
                     "mqttConnected",
                     "True"
-                  ],
-                  "subInstructions": []
+                  ]
                 },
                 {
                   "type": {
-                    "inverted": false,
                     "value": "Webduino MQTT::publish"
                   },
                   "parameters": [
@@ -30012,13 +29835,12 @@
                     "0",
                     "",
                     ""
-                  ],
-                  "subInstructions": []
+                  ]
                 }
-              ],
-              "events": []
+              ]
             },
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -30029,49 +29851,42 @@
                   "parameters": [
                     "",
                     ""
-                  ],
-                  "subInstructions": []
+                  ]
                 },
                 {
                   "type": {
-                    "inverted": false,
                     "value": "SceneVariableAsBoolean"
                   },
                   "parameters": [
                     "mqttConnected",
                     "True"
-                  ],
-                  "subInstructions": []
+                  ]
                 }
               ],
               "actions": [
                 {
                   "type": {
-                    "inverted": false,
                     "value": "DebuggerTools::ConsoleLog"
                   },
                   "parameters": [
                     "\"mqtt 斷線中...\"",
                     "\"warning\"",
                     ""
-                  ],
-                  "subInstructions": []
+                  ]
                 },
                 {
                   "type": {
-                    "inverted": false,
                     "value": "SetSceneVariableAsBoolean"
                   },
                   "parameters": [
                     "mqttConnected",
                     "False"
-                  ],
-                  "subInstructions": []
+                  ]
                 }
-              ],
-              "events": []
+              ]
             },
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Comment",
               "color": {
                 "b": 109,
@@ -30085,36 +29900,32 @@
               "comment2": ""
             },
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
                   "type": {
-                    "inverted": false,
                     "value": "SceneVariableAsBoolean"
                   },
                   "parameters": [
                     "mqttMessageExecuting",
                     "False"
-                  ],
-                  "subInstructions": []
+                  ]
                 },
                 {
                   "type": {
-                    "inverted": false,
                     "value": "BuiltinCommonInstructions::CompareStrings"
                   },
                   "parameters": [
                     "ArrayTools::Join(\"mqttMessages\", \"\")",
                     "!=",
                     "\"\""
-                  ],
-                  "subInstructions": []
+                  ]
                 }
               ],
               "actions": [
                 {
                   "type": {
-                    "inverted": false,
                     "value": "ArrayTools::Shift"
                   },
                   "parameters": [
@@ -30122,12 +29933,12 @@
                     "\"mqttMessages\"",
                     "\"message\"",
                     ""
-                  ],
-                  "subInstructions": []
+                  ]
                 }
               ],
               "events": [
                 {
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::Comment",
                   "color": {
                     "b": 109,
@@ -30141,25 +29952,23 @@
                   "comment2": ""
                 },
                 {
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
                       "type": {
-                        "inverted": false,
                         "value": "BuiltinCommonInstructions::CompareStrings"
                       },
                       "parameters": [
                         "VariableString(message)",
                         "=",
                         "GlobalVariableString(MQTT_COMMAND.MOVE.UP)"
-                      ],
-                      "subInstructions": []
+                      ]
                     }
                   ],
                   "actions": [
                     {
                       "type": {
-                        "inverted": false,
                         "value": "Create"
                       },
                       "parameters": [
@@ -30168,32 +29977,28 @@
                         "MoveArea_top.X()",
                         "MoveArea_top.Y()",
                         ""
-                      ],
-                      "subInstructions": []
+                      ]
                     }
-                  ],
-                  "events": []
+                  ]
                 },
                 {
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
                       "type": {
-                        "inverted": false,
                         "value": "BuiltinCommonInstructions::CompareStrings"
                       },
                       "parameters": [
                         "VariableString(message)",
                         "=",
                         "GlobalVariableString(MQTT_COMMAND.MOVE.DOWN)"
-                      ],
-                      "subInstructions": []
+                      ]
                     }
                   ],
                   "actions": [
                     {
                       "type": {
-                        "inverted": false,
                         "value": "Create"
                       },
                       "parameters": [
@@ -30202,32 +30007,28 @@
                         "MoveArea_bottom.X()",
                         "MoveArea_bottom.Y()",
                         ""
-                      ],
-                      "subInstructions": []
+                      ]
                     }
-                  ],
-                  "events": []
+                  ]
                 },
                 {
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
                       "type": {
-                        "inverted": false,
                         "value": "BuiltinCommonInstructions::CompareStrings"
                       },
                       "parameters": [
                         "VariableString(message)",
                         "=",
                         "GlobalVariableString(MQTT_COMMAND.MOVE.RIGHT)"
-                      ],
-                      "subInstructions": []
+                      ]
                     }
                   ],
                   "actions": [
                     {
                       "type": {
-                        "inverted": false,
                         "value": "Create"
                       },
                       "parameters": [
@@ -30236,32 +30037,28 @@
                         "MoveArea_right.X()",
                         "MoveArea_right.Y()",
                         ""
-                      ],
-                      "subInstructions": []
+                      ]
                     }
-                  ],
-                  "events": []
+                  ]
                 },
                 {
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
                       "type": {
-                        "inverted": false,
                         "value": "BuiltinCommonInstructions::CompareStrings"
                       },
                       "parameters": [
                         "VariableString(message)",
                         "=",
                         "GlobalVariableString(MQTT_COMMAND.MOVE.LEFT)"
-                      ],
-                      "subInstructions": []
+                      ]
                     }
                   ],
                   "actions": [
                     {
                       "type": {
-                        "inverted": false,
                         "value": "Create"
                       },
                       "parameters": [
@@ -30270,32 +30067,28 @@
                         "MoveArea_left.X()",
                         "MoveArea_left.Y()",
                         ""
-                      ],
-                      "subInstructions": []
+                      ]
                     }
-                  ],
-                  "events": []
+                  ]
                 },
                 {
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
                       "type": {
-                        "inverted": false,
                         "value": "BuiltinCommonInstructions::CompareStrings"
                       },
                       "parameters": [
                         "VariableString(message)",
                         "=",
                         "GlobalVariableString(MQTT_COMMAND.MOVE.UP_LEFT)"
-                      ],
-                      "subInstructions": []
+                      ]
                     }
                   ],
                   "actions": [
                     {
                       "type": {
-                        "inverted": false,
                         "value": "Create"
                       },
                       "parameters": [
@@ -30304,32 +30097,28 @@
                         "MoveArea_left_top.X()",
                         "MoveArea_left_top.Y()",
                         ""
-                      ],
-                      "subInstructions": []
+                      ]
                     }
-                  ],
-                  "events": []
+                  ]
                 },
                 {
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
                       "type": {
-                        "inverted": false,
                         "value": "BuiltinCommonInstructions::CompareStrings"
                       },
                       "parameters": [
                         "VariableString(message)",
                         "=",
                         "GlobalVariableString(MQTT_COMMAND.MOVE.UP_RIGHT)"
-                      ],
-                      "subInstructions": []
+                      ]
                     }
                   ],
                   "actions": [
                     {
                       "type": {
-                        "inverted": false,
                         "value": "Create"
                       },
                       "parameters": [
@@ -30338,32 +30127,28 @@
                         "MoveArea_right_top.X()",
                         "MoveArea_right_top.Y()",
                         ""
-                      ],
-                      "subInstructions": []
+                      ]
                     }
-                  ],
-                  "events": []
+                  ]
                 },
                 {
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
                       "type": {
-                        "inverted": false,
                         "value": "BuiltinCommonInstructions::CompareStrings"
                       },
                       "parameters": [
                         "VariableString(message)",
                         "=",
                         "GlobalVariableString(MQTT_COMMAND.MOVE.DOWN_LEFT)"
-                      ],
-                      "subInstructions": []
+                      ]
                     }
                   ],
                   "actions": [
                     {
                       "type": {
-                        "inverted": false,
                         "value": "Create"
                       },
                       "parameters": [
@@ -30372,32 +30157,28 @@
                         "MoveArea_left_bottom.X()",
                         "MoveArea_left_bottom.Y()",
                         ""
-                      ],
-                      "subInstructions": []
+                      ]
                     }
-                  ],
-                  "events": []
+                  ]
                 },
                 {
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
                       "type": {
-                        "inverted": false,
                         "value": "BuiltinCommonInstructions::CompareStrings"
                       },
                       "parameters": [
                         "VariableString(message)",
                         "=",
                         "GlobalVariableString(MQTT_COMMAND.MOVE.DOWN_RIGHT)"
-                      ],
-                      "subInstructions": []
+                      ]
                     }
                   ],
                   "actions": [
                     {
                       "type": {
-                        "inverted": false,
                         "value": "Create"
                       },
                       "parameters": [
@@ -30406,13 +30187,12 @@
                         "MoveArea_right_bottom.X()",
                         "MoveArea_right_bottom.Y()",
                         ""
-                      ],
-                      "subInstructions": []
+                      ]
                     }
-                  ],
-                  "events": []
+                  ]
                 },
                 {
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::Comment",
                   "color": {
                     "b": 109,
@@ -30426,38 +30206,35 @@
                   "comment2": ""
                 },
                 {
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
                       "type": {
-                        "inverted": false,
                         "value": "BuiltinCommonInstructions::CompareStrings"
                       },
                       "parameters": [
                         "VariableString(message)",
                         "=",
                         "GlobalVariableString(MQTT_COMMAND.RESET)"
-                      ],
-                      "subInstructions": []
+                      ]
                     }
                   ],
                   "actions": [
                     {
                       "type": {
-                        "inverted": false,
                         "value": "Scene"
                       },
                       "parameters": [
                         "",
                         "\"Level 1\"",
                         ""
-                      ],
-                      "subInstructions": []
+                      ]
                     }
-                  ],
-                  "events": []
+                  ]
                 },
                 {
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::Comment",
                   "color": {
                     "b": 109,
@@ -30471,37 +30248,33 @@
                   "comment2": ""
                 },
                 {
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
                       "type": {
-                        "inverted": false,
                         "value": "BuiltinCommonInstructions::CompareStrings"
                       },
                       "parameters": [
                         "VariableString(message)",
                         "=",
                         "GlobalVariableString(MQTT_COMMAND.PLAYINFO)"
-                      ],
-                      "subInstructions": []
+                      ]
                     }
                   ],
                   "actions": [
                     {
                       "type": {
-                        "inverted": false,
                         "value": "ModVarScene"
                       },
                       "parameters": [
                         "playInfo.time",
                         "=",
                         "Variable(time)"
-                      ],
-                      "subInstructions": []
+                      ]
                     },
                     {
                       "type": {
-                        "inverted": false,
                         "value": "Webduino MQTT::publish"
                       },
                       "parameters": [
@@ -30511,15 +30284,14 @@
                         "0",
                         "",
                         ""
-                      ],
-                      "subInstructions": []
+                      ]
                     }
-                  ],
-                  "events": []
+                  ]
                 }
               ]
             },
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Comment",
               "color": {
                 "b": 109,
@@ -30533,37 +30305,34 @@
               "comment2": ""
             },
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
                   "type": {
-                    "inverted": false,
                     "value": "Webduino MQTT::onMessage"
                   },
                   "parameters": [
                     "",
                     "GlobalVariableString(MQTT_TOPIC_SUBSCRIBE)",
                     ""
-                  ],
-                  "subInstructions": []
+                  ]
                 }
               ],
               "actions": [
                 {
                   "type": {
-                    "inverted": false,
                     "value": "SceneVariablePushString"
                   },
                   "parameters": [
                     "mqttMessages",
                     "Webduino MQTT::GetLastMessage(GlobalVariableString(MQTT_TOPIC_SUBSCRIBE))"
-                  ],
-                  "subInstructions": []
+                  ]
                 }
-              ],
-              "events": []
+              ]
             },
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Comment",
               "color": {
                 "b": 109,
@@ -30577,57 +30346,49 @@
               "comment2": ""
             },
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
                   "type": {
-                    "inverted": false,
                     "value": "BuiltinCommonInstructions::CompareNumbers"
                   },
                   "parameters": [
                     "Count(Coin)",
                     "=",
                     "1"
-                  ],
-                  "subInstructions": []
+                  ]
                 },
                 {
                   "type": {
-                    "inverted": false,
                     "value": "BuiltinCommonInstructions::Once"
                   },
-                  "parameters": [],
-                  "subInstructions": []
+                  "parameters": []
                 }
               ],
               "actions": [
                 {
                   "type": {
-                    "inverted": false,
                     "value": "ModVarScene"
                   },
                   "parameters": [
                     "playInfo.time",
                     "=",
                     "Variable(time)"
-                  ],
-                  "subInstructions": []
+                  ]
                 },
                 {
                   "type": {
-                    "inverted": false,
                     "value": "ModVarSceneTxt"
                   },
                   "parameters": [
                     "playInfo.status",
                     "=",
                     "\"passed\""
-                  ],
-                  "subInstructions": []
+                  ]
                 },
                 {
                   "type": {
-                    "inverted": false,
                     "value": "Webduino MQTT::publish"
                   },
                   "parameters": [
@@ -30637,13 +30398,12 @@
                     "0",
                     "",
                     ""
-                  ],
-                  "subInstructions": []
+                  ]
                 }
-              ],
-              "events": []
+              ]
             },
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Comment",
               "color": {
                 "b": 109,
@@ -30657,81 +30417,72 @@
               "comment2": ""
             },
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
                   "type": {
-                    "inverted": false,
                     "value": "SceneVariableAsBoolean"
                   },
                   "parameters": [
                     "DebugMode",
                     "True"
-                  ],
-                  "subInstructions": []
+                  ]
                 }
               ],
               "actions": [],
               "events": [
                 {
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
                       "type": {
-                        "inverted": false,
                         "value": "Webduino MQTT::onMessage"
                       },
                       "parameters": [
                         "",
                         "GlobalVariableString(MQTT_TOPIC_SUBSCRIBE)",
                         ""
-                      ],
-                      "subInstructions": []
+                      ]
                     }
                   ],
                   "actions": [
                     {
                       "type": {
-                        "inverted": false,
                         "value": "DebuggerTools::ConsoleLog"
                       },
                       "parameters": [
                         "\"[Debug] 收到訊息：\" + Webduino MQTT::GetLastMessage(GlobalVariableString(MQTT_TOPIC_SUBSCRIBE))",
                         "\"info\"",
                         ""
-                      ],
-                      "subInstructions": []
+                      ]
                     }
-                  ],
-                  "events": []
+                  ]
                 },
                 {
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
                       "type": {
-                        "inverted": false,
                         "value": "Webduino MQTT::isConnected"
                       },
                       "parameters": [
                         "",
                         ""
-                      ],
-                      "subInstructions": []
+                      ]
                     },
                     {
                       "type": {
-                        "inverted": false,
                         "value": "BuiltinCommonInstructions::Once"
                       },
-                      "parameters": [],
-                      "subInstructions": []
+                      "parameters": []
                     }
                   ],
                   "actions": [
                     {
                       "type": {
-                        "inverted": false,
                         "value": "Webduino MQTT::publish"
                       },
                       "parameters": [
@@ -30741,35 +30492,29 @@
                         "0",
                         "",
                         ""
-                      ],
-                      "subInstructions": []
+                      ]
                     },
                     {
                       "type": {
-                        "inverted": false,
                         "value": "DebuggerTools::ConsoleLog"
                       },
                       "parameters": [
                         "\"[Debug] 發送 mqtt：\" + GlobalVariableString(MQTT_TOPIC_PUBLISH)",
                         "\"info\"",
                         ""
-                      ],
-                      "subInstructions": []
+                      ]
                     },
                     {
                       "type": {
-                        "inverted": false,
                         "value": "DebuggerTools::ConsoleLog"
                       },
                       "parameters": [
                         "\"[Debug] 接收 mqtt：\" + GlobalVariableString(MQTT_TOPIC_SUBSCRIBE)",
                         "\"info\"",
                         ""
-                      ],
-                      "subInstructions": []
+                      ]
                     }
-                  ],
-                  "events": []
+                  ]
                 }
               ]
             }
@@ -30998,7 +30743,6 @@
               "actions": [
                 {
                   "type": {
-                    "inverted": false,
                     "value": "ZoomCamera"
                   },
                   "parameters": [
@@ -31006,11 +30750,9 @@
                     "CameraZoom(GetArgumentAsString(\"Layer\"), GetArgumentAsNumber(\"Camera\")) * pow(GetArgumentAsNumber(\"ZoomSpeed\"), TimeDelta())",
                     "GetArgumentAsString(\"Layer\")",
                     "GetArgumentAsNumber(\"Camera\")"
-                  ],
-                  "subInstructions": []
+                  ]
                 }
-              ],
-              "events": []
+              ]
             }
           ],
           "parameters": [
@@ -31075,7 +30817,6 @@
               "actions": [
                 {
                   "type": {
-                    "inverted": false,
                     "value": "SetCameraX"
                   },
                   "parameters": [
@@ -31084,12 +30825,10 @@
                     "GetArgumentAsNumber(\"AnchorX\")\n+ (\n   CameraX(GetArgumentAsString(\"Layer\"), GetArgumentAsNumber(\"Camera\"))\n   - GetArgumentAsNumber(\"AnchorX\")\n)\n* CameraZoom(GetArgumentAsString(\"Layer\"), GetArgumentAsNumber(\"Camera\"))\n/ GetArgumentAsNumber(\"Zoom\")",
                     "\"\"",
                     "0"
-                  ],
-                  "subInstructions": []
+                  ]
                 },
                 {
                   "type": {
-                    "inverted": false,
                     "value": "SetCameraY"
                   },
                   "parameters": [
@@ -31098,12 +30837,10 @@
                     "GetArgumentAsNumber(\"AnchorY\")\n+ (\n   CameraY(GetArgumentAsString(\"Layer\"), GetArgumentAsNumber(\"Camera\"))\n   - GetArgumentAsNumber(\"AnchorY\")\n)\n* CameraZoom(GetArgumentAsString(\"Layer\"), GetArgumentAsNumber(\"Camera\"))\n/ GetArgumentAsNumber(\"Zoom\")",
                     "\"\"",
                     "0"
-                  ],
-                  "subInstructions": []
+                  ]
                 },
                 {
                   "type": {
-                    "inverted": false,
                     "value": "ZoomCamera"
                   },
                   "parameters": [
@@ -31111,11 +30848,9 @@
                     "GetArgumentAsNumber(\"Zoom\")",
                     "GetArgumentAsString(\"Layer\")",
                     "GetArgumentAsNumber(\"Camera\")"
-                  ],
-                  "subInstructions": []
+                  ]
                 }
-              ],
-              "events": []
+              ]
             }
           ],
           "parameters": [
@@ -31187,7 +30922,6 @@
               "actions": [
                 {
                   "type": {
-                    "inverted": false,
                     "value": "CameraZoom::ZoomWithAnchor"
                   },
                   "parameters": [
@@ -31198,11 +30932,9 @@
                     "GetArgumentAsNumber(\"AnchorX\")",
                     "GetArgumentAsNumber(\"AnchorY\")",
                     ""
-                  ],
-                  "subInstructions": []
+                  ]
                 }
-              ],
-              "events": []
+              ]
             }
           ],
           "parameters": [
@@ -31318,39 +31050,33 @@
               "conditions": [
                 {
                   "type": {
-                    "inverted": false,
                     "value": "BuiltinCommonInstructions::Or"
                   },
                   "parameters": [],
                   "subInstructions": [
                     {
                       "type": {
-                        "inverted": false,
                         "value": "MouseButtonFromTextPressed"
                       },
                       "parameters": [
                         "",
                         "GetArgumentAsString(\"InputButton\")"
-                      ],
-                      "subInstructions": []
+                      ]
                     },
                     {
                       "type": {
-                        "inverted": false,
                         "value": "BuiltinCommonInstructions::And"
                       },
                       "parameters": [],
                       "subInstructions": [
                         {
                           "type": {
-                            "inverted": false,
                             "value": "MouseButtonPressed"
                           },
                           "parameters": [
                             "",
                             "Left"
-                          ],
-                          "subInstructions": []
+                          ]
                         },
                         {
                           "type": {
@@ -31359,8 +31085,7 @@
                           },
                           "parameters": [
                             "\"InputButton\""
-                          ],
-                          "subInstructions": []
+                          ]
                         }
                       ]
                     }
@@ -31368,40 +31093,33 @@
                 },
                 {
                   "type": {
-                    "inverted": false,
                     "value": "BuiltinCommonInstructions::Once"
                   },
-                  "parameters": [],
-                  "subInstructions": []
+                  "parameters": []
                 }
               ],
               "actions": [
                 {
                   "type": {
-                    "inverted": false,
                     "value": "ModVarScene"
                   },
                   "parameters": [
                     "__DragCameraWithPointer.scrollStartX",
                     "=",
                     "MouseX(GetArgumentAsString(\"CamLayer\"),GetArgumentAsNumber(\"CamNumber\"))"
-                  ],
-                  "subInstructions": []
+                  ]
                 },
                 {
                   "type": {
-                    "inverted": false,
                     "value": "ModVarScene"
                   },
                   "parameters": [
                     "__DragCameraWithPointer.scrollStartY",
                     "=",
                     "MouseY(GetArgumentAsString(\"CamLayer\"),GetArgumentAsNumber(\"CamNumber\"))"
-                  ],
-                  "subInstructions": []
+                  ]
                 }
-              ],
-              "events": []
+              ]
             },
             {
               "type": "BuiltinCommonInstructions::Comment",
@@ -31421,39 +31139,33 @@
               "conditions": [
                 {
                   "type": {
-                    "inverted": false,
                     "value": "BuiltinCommonInstructions::Or"
                   },
                   "parameters": [],
                   "subInstructions": [
                     {
                       "type": {
-                        "inverted": false,
                         "value": "MouseButtonFromTextPressed"
                       },
                       "parameters": [
                         "",
                         "GetArgumentAsString(\"InputButton\")"
-                      ],
-                      "subInstructions": []
+                      ]
                     },
                     {
                       "type": {
-                        "inverted": false,
                         "value": "BuiltinCommonInstructions::And"
                       },
                       "parameters": [],
                       "subInstructions": [
                         {
                           "type": {
-                            "inverted": false,
                             "value": "MouseButtonPressed"
                           },
                           "parameters": [
                             "",
                             "Left"
-                          ],
-                          "subInstructions": []
+                          ]
                         },
                         {
                           "type": {
@@ -31462,8 +31174,7 @@
                           },
                           "parameters": [
                             "\"InputButton\""
-                          ],
-                          "subInstructions": []
+                          ]
                         }
                       ]
                     }
@@ -31478,54 +31189,45 @@
                   "actions": [
                     {
                       "type": {
-                        "inverted": false,
                         "value": "ModVarScene"
                       },
                       "parameters": [
                         "__DragCameraWithPointer.scrollTargetX",
                         "=",
                         "MouseX(GetArgumentAsString(\"CamLayer\"),GetArgumentAsNumber(\"CamNumber\"))"
-                      ],
-                      "subInstructions": []
+                      ]
                     },
                     {
                       "type": {
-                        "inverted": false,
                         "value": "ModVarScene"
                       },
                       "parameters": [
                         "__DragCameraWithPointer.scrollTargetY",
                         "=",
                         "MouseY(GetArgumentAsString(\"CamLayer\"),GetArgumentAsNumber(\"CamNumber\"))"
-                      ],
-                      "subInstructions": []
+                      ]
                     },
                     {
                       "type": {
-                        "inverted": false,
                         "value": "ModVarScene"
                       },
                       "parameters": [
                         "__DragCameraWithPointer.scrollDistanceX",
                         "=",
                         "(Variable(__DragCameraWithPointer.scrollTargetX) - Variable(__DragCameraWithPointer.scrollStartX))"
-                      ],
-                      "subInstructions": []
+                      ]
                     },
                     {
                       "type": {
-                        "inverted": false,
                         "value": "ModVarScene"
                       },
                       "parameters": [
                         "__DragCameraWithPointer.scrollDistanceY",
                         "=",
                         "(Variable(__DragCameraWithPointer.scrollTargetY) - Variable(__DragCameraWithPointer.scrollStartY))"
-                      ],
-                      "subInstructions": []
+                      ]
                     }
-                  ],
-                  "events": []
+                  ]
                 },
                 {
                   "type": "BuiltinCommonInstructions::Comment",
@@ -31545,46 +31247,39 @@
                   "conditions": [
                     {
                       "type": {
-                        "inverted": false,
                         "value": "BuiltinCommonInstructions::Or"
                       },
                       "parameters": [],
                       "subInstructions": [
                         {
                           "type": {
-                            "inverted": false,
                             "value": "StrEqual"
                           },
                           "parameters": [
                             "GetArgumentAsString(\"Direction\")",
                             "=",
                             "\"horizontal\""
-                          ],
-                          "subInstructions": []
+                          ]
                         },
                         {
                           "type": {
-                            "inverted": false,
                             "value": "StrEqual"
                           },
                           "parameters": [
                             "GetArgumentAsString(\"Direction\")",
                             "=",
                             "\"both\""
-                          ],
-                          "subInstructions": []
+                          ]
                         },
                         {
                           "type": {
-                            "inverted": false,
                             "value": "StrEqual"
                           },
                           "parameters": [
                             "GetArgumentAsString(\"Direction\")",
                             "=",
                             "\"\""
-                          ],
-                          "subInstructions": []
+                          ]
                         }
                       ]
                     }
@@ -31609,21 +31304,18 @@
                       "conditions": [
                         {
                           "type": {
-                            "inverted": false,
                             "value": "Egal"
                           },
                           "parameters": [
                             "abs(Variable(__DragCameraWithPointer.scrollDistanceX))",
                             ">=",
                             "1"
-                          ],
-                          "subInstructions": []
+                          ]
                         }
                       ],
                       "actions": [
                         {
                           "type": {
-                            "inverted": false,
                             "value": "SetCameraX"
                           },
                           "parameters": [
@@ -31632,11 +31324,9 @@
                             "Variable(__DragCameraWithPointer.scrollDistanceX)",
                             "GetArgumentAsString(\"CamLayer\")",
                             "GetArgumentAsNumber(\"CamNumber\")"
-                          ],
-                          "subInstructions": []
+                          ]
                         }
-                      ],
-                      "events": []
+                      ]
                     }
                   ]
                 },
@@ -31658,46 +31348,39 @@
                   "conditions": [
                     {
                       "type": {
-                        "inverted": false,
                         "value": "BuiltinCommonInstructions::Or"
                       },
                       "parameters": [],
                       "subInstructions": [
                         {
                           "type": {
-                            "inverted": false,
                             "value": "StrEqual"
                           },
                           "parameters": [
                             "GetArgumentAsString(\"Direction\")",
                             "=",
                             "\"vertical\""
-                          ],
-                          "subInstructions": []
+                          ]
                         },
                         {
                           "type": {
-                            "inverted": false,
                             "value": "StrEqual"
                           },
                           "parameters": [
                             "GetArgumentAsString(\"Direction\")",
                             "=",
                             "\"both\""
-                          ],
-                          "subInstructions": []
+                          ]
                         },
                         {
                           "type": {
-                            "inverted": false,
                             "value": "StrEqual"
                           },
                           "parameters": [
                             "GetArgumentAsString(\"Direction\")",
                             "=",
                             "\"\""
-                          ],
-                          "subInstructions": []
+                          ]
                         }
                       ]
                     }
@@ -31722,21 +31405,18 @@
                       "conditions": [
                         {
                           "type": {
-                            "inverted": false,
                             "value": "Egal"
                           },
                           "parameters": [
                             "abs(Variable(__DragCameraWithPointer.scrollDistanceY))",
                             ">=",
                             "1"
-                          ],
-                          "subInstructions": []
+                          ]
                         }
                       ],
                       "actions": [
                         {
                           "type": {
-                            "inverted": false,
                             "value": "SetCameraY"
                           },
                           "parameters": [
@@ -31745,11 +31425,9 @@
                             "Variable(__DragCameraWithPointer.scrollDistanceY)",
                             "GetArgumentAsString(\"CamLayer\")",
                             "GetArgumentAsNumber(\"CamNumber\")"
-                          ],
-                          "subInstructions": []
+                          ]
                         }
-                      ],
-                      "events": []
+                      ]
                     }
                   ]
                 }
@@ -32269,30 +31947,25 @@
               "conditions": [
                 {
                   "type": {
-                    "inverted": false,
                     "value": "Egal"
                   },
                   "parameters": [
                     "ArrayTools::IndexOf(GetArgumentAsString(\"arr\"), GetArgumentAsNumber(\"val\"))",
                     "!=",
                     "-1"
-                  ],
-                  "subInstructions": []
+                  ]
                 }
               ],
               "actions": [
                 {
                   "type": {
-                    "inverted": false,
                     "value": "SetReturnBoolean"
                   },
                   "parameters": [
                     "True"
-                  ],
-                  "subInstructions": []
+                  ]
                 }
-              ],
-              "events": []
+              ]
             }
           ],
           "parameters": [
@@ -32333,30 +32006,25 @@
               "conditions": [
                 {
                   "type": {
-                    "inverted": false,
                     "value": "Egal"
                   },
                   "parameters": [
                     "ArrayTools::IndexOfStr(GetArgumentAsString(\"arr\"), GetArgumentAsString(\"val\"))",
                     "!=",
                     "-1"
-                  ],
-                  "subInstructions": []
+                  ]
                 }
               ],
               "actions": [
                 {
                   "type": {
-                    "inverted": false,
                     "value": "SetReturnBoolean"
                   },
                   "parameters": [
                     "True"
-                  ],
-                  "subInstructions": []
+                  ]
                 }
-              ],
-              "events": []
+              ]
             }
           ],
           "parameters": [
@@ -33115,7 +32783,6 @@
               "actions": [
                 {
                   "type": {
-                    "inverted": false,
                     "value": "ArrayTools::Slice"
                   },
                   "parameters": [
@@ -33125,23 +32792,19 @@
                     "0",
                     "0",
                     ""
-                  ],
-                  "subInstructions": []
+                  ]
                 },
                 {
                   "type": {
-                    "inverted": false,
                     "value": "ArrayTools::Sort"
                   },
                   "parameters": [
                     "",
                     "\"__ArrayTools_tmp\"",
                     ""
-                  ],
-                  "subInstructions": []
+                  ]
                 }
-              ],
-              "events": []
+              ]
             },
             {
               "type": "BuiltinCommonInstructions::JsCode",
@@ -33651,18 +33314,15 @@
                   "actions": [
                     {
                       "type": {
-                        "inverted": false,
                         "value": "ChangePlan"
                       },
                       "parameters": [
                         "Object",
                         "=",
                         "Object.Y()"
-                      ],
-                      "subInstructions": []
+                      ]
                     }
-                  ],
-                  "events": []
+                  ]
                 }
               ],
               "parameters": [
@@ -34088,8 +33748,7 @@
             {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [],
-              "actions": [],
-              "events": []
+              "actions": []
             },
             {
               "type": "BuiltinCommonInstructions::JsCode",
@@ -34217,8 +33876,7 @@
             {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [],
-              "actions": [],
-              "events": []
+              "actions": []
             },
             {
               "type": "BuiltinCommonInstructions::JsCode",
@@ -34346,8 +34004,7 @@
             {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [],
-              "actions": [],
-              "events": []
+              "actions": []
             },
             {
               "type": "BuiltinCommonInstructions::JsCode",
@@ -34393,8 +34050,7 @@
             {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [],
-              "actions": [],
-              "events": []
+              "actions": []
             },
             {
               "type": "BuiltinCommonInstructions::JsCode",
@@ -34419,8 +34075,7 @@
             {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [],
-              "actions": [],
-              "events": []
+              "actions": []
             },
             {
               "type": "BuiltinCommonInstructions::JsCode",
@@ -34445,8 +34100,7 @@
             {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [],
-              "actions": [],
-              "events": []
+              "actions": []
             },
             {
               "type": "BuiltinCommonInstructions::JsCode",
@@ -34504,7 +34158,6 @@
               "actions": [
                 {
                   "type": {
-                    "inverted": false,
                     "value": "ModVarObjet"
                   },
                   "parameters": [
@@ -34512,11 +34165,9 @@
                     "validDistance",
                     "=",
                     "5"
-                  ],
-                  "subInstructions": []
+                  ]
                 }
-              ],
-              "events": []
+              ]
             },
             {
               "disabled": true,
@@ -34524,58 +34175,49 @@
               "conditions": [
                 {
                   "type": {
-                    "inverted": false,
                     "value": "BuiltinCommonInstructions::Or"
                   },
                   "parameters": [],
                   "subInstructions": [
                     {
                       "type": {
-                        "inverted": false,
                         "value": "BuiltinCommonInstructions::CompareNumbers"
                       },
                       "parameters": [
                         "Target.X()",
                         "<=",
                         "GetArgumentAsNumber(\"X\")-Target.Variable(validDistance)"
-                      ],
-                      "subInstructions": []
+                      ]
                     },
                     {
                       "type": {
-                        "inverted": false,
                         "value": "BuiltinCommonInstructions::CompareNumbers"
                       },
                       "parameters": [
                         "Target.X()",
                         ">=",
                         "GetArgumentAsNumber(\"X\")+Target.Variable(validDistance)"
-                      ],
-                      "subInstructions": []
+                      ]
                     },
                     {
                       "type": {
-                        "inverted": false,
                         "value": "BuiltinCommonInstructions::CompareNumbers"
                       },
                       "parameters": [
                         "Target.Y()",
                         ">=",
                         "GetArgumentAsNumber(\"Y\")+Target.Variable(validDistance)"
-                      ],
-                      "subInstructions": []
+                      ]
                     },
                     {
                       "type": {
-                        "inverted": false,
                         "value": "BuiltinCommonInstructions::CompareNumbers"
                       },
                       "parameters": [
                         "Target.Y()",
                         "<=",
                         "GetArgumentAsNumber(\"Y\")-Target.Variable(validDistance)"
-                      ],
-                      "subInstructions": []
+                      ]
                     }
                   ]
                 }
@@ -34587,124 +34229,104 @@
                   "conditions": [
                     {
                       "type": {
-                        "inverted": false,
                         "value": "BuiltinCommonInstructions::CompareNumbers"
                       },
                       "parameters": [
                         "GetArgumentAsNumber(\"Y\")+Target.Variable(validDistance)",
                         "<",
                         "Target.Y()"
-                      ],
-                      "subInstructions": []
+                      ]
                     }
                   ],
                   "actions": [
                     {
                       "type": {
-                        "inverted": false,
                         "value": "TopDownMovementBehavior::SimulateUpKey"
                       },
                       "parameters": [
                         "Target",
                         "TopDownMovement"
-                      ],
-                      "subInstructions": []
+                      ]
                     }
-                  ],
-                  "events": []
+                  ]
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
                       "type": {
-                        "inverted": false,
                         "value": "BuiltinCommonInstructions::CompareNumbers"
                       },
                       "parameters": [
                         "GetArgumentAsNumber(\"Y\")-Target.Variable(validDistance)",
                         ">",
                         "Target.Y()"
-                      ],
-                      "subInstructions": []
+                      ]
                     }
                   ],
                   "actions": [
                     {
                       "type": {
-                        "inverted": false,
                         "value": "TopDownMovementBehavior::SimulateDownKey"
                       },
                       "parameters": [
                         "Target",
                         "TopDownMovement"
-                      ],
-                      "subInstructions": []
+                      ]
                     }
-                  ],
-                  "events": []
+                  ]
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
                       "type": {
-                        "inverted": false,
                         "value": "BuiltinCommonInstructions::CompareNumbers"
                       },
                       "parameters": [
                         "GetArgumentAsNumber(\"X\")+Target.Variable(validDistance)",
                         "<",
                         "Target.X()"
-                      ],
-                      "subInstructions": []
+                      ]
                     }
                   ],
                   "actions": [
                     {
                       "type": {
-                        "inverted": false,
                         "value": "TopDownMovementBehavior::SimulateLeftKey"
                       },
                       "parameters": [
                         "Target",
                         "TopDownMovement"
-                      ],
-                      "subInstructions": []
+                      ]
                     }
-                  ],
-                  "events": []
+                  ]
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
                       "type": {
-                        "inverted": false,
                         "value": "BuiltinCommonInstructions::CompareNumbers"
                       },
                       "parameters": [
                         "GetArgumentAsNumber(\"X\")-Target.Variable(validDistance)",
                         ">",
                         "Target.X()"
-                      ],
-                      "subInstructions": []
+                      ]
                     }
                   ],
                   "actions": [
                     {
                       "type": {
-                        "inverted": false,
                         "value": "TopDownMovementBehavior::SimulateRightKey"
                       },
                       "parameters": [
                         "Target",
                         "TopDownMovement"
-                      ],
-                      "subInstructions": []
+                      ]
                     }
-                  ],
-                  "events": []
+                  ]
                 }
               ]
             },
@@ -34720,8 +34342,7 @@
                     "Target",
                     "GetArgumentAsNumber(\"X\")",
                     "GetArgumentAsNumber(\"Y\")"
-                  ],
-                  "subInstructions": []
+                  ]
                 }
               ],
               "actions": [],
@@ -34731,124 +34352,104 @@
                   "conditions": [
                     {
                       "type": {
-                        "inverted": false,
                         "value": "BuiltinCommonInstructions::CompareNumbers"
                       },
                       "parameters": [
                         "GetArgumentAsNumber(\"Y\")+Target.Variable(validDistance)",
                         "<",
                         "Target.Y()"
-                      ],
-                      "subInstructions": []
+                      ]
                     }
                   ],
                   "actions": [
                     {
                       "type": {
-                        "inverted": false,
                         "value": "TopDownMovementBehavior::SimulateUpKey"
                       },
                       "parameters": [
                         "Target",
                         "TopDownMovement"
-                      ],
-                      "subInstructions": []
+                      ]
                     }
-                  ],
-                  "events": []
+                  ]
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
                       "type": {
-                        "inverted": false,
                         "value": "BuiltinCommonInstructions::CompareNumbers"
                       },
                       "parameters": [
                         "GetArgumentAsNumber(\"Y\")-Target.Variable(validDistance)",
                         ">",
                         "Target.Y()"
-                      ],
-                      "subInstructions": []
+                      ]
                     }
                   ],
                   "actions": [
                     {
                       "type": {
-                        "inverted": false,
                         "value": "TopDownMovementBehavior::SimulateDownKey"
                       },
                       "parameters": [
                         "Target",
                         "TopDownMovement"
-                      ],
-                      "subInstructions": []
+                      ]
                     }
-                  ],
-                  "events": []
+                  ]
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
                       "type": {
-                        "inverted": false,
                         "value": "BuiltinCommonInstructions::CompareNumbers"
                       },
                       "parameters": [
                         "GetArgumentAsNumber(\"X\")+Target.Variable(validDistance)",
                         "<",
                         "Target.X()"
-                      ],
-                      "subInstructions": []
+                      ]
                     }
                   ],
                   "actions": [
                     {
                       "type": {
-                        "inverted": false,
                         "value": "TopDownMovementBehavior::SimulateLeftKey"
                       },
                       "parameters": [
                         "Target",
                         "TopDownMovement"
-                      ],
-                      "subInstructions": []
+                      ]
                     }
-                  ],
-                  "events": []
+                  ]
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
                       "type": {
-                        "inverted": false,
                         "value": "BuiltinCommonInstructions::CompareNumbers"
                       },
                       "parameters": [
                         "GetArgumentAsNumber(\"X\")-Target.Variable(validDistance)",
                         ">",
                         "Target.X()"
-                      ],
-                      "subInstructions": []
+                      ]
                     }
                   ],
                   "actions": [
                     {
                       "type": {
-                        "inverted": false,
                         "value": "TopDownMovementBehavior::SimulateRightKey"
                       },
                       "parameters": [
                         "Target",
                         "TopDownMovement"
-                      ],
-                      "subInstructions": []
+                      ]
                     }
-                  ],
-                  "events": []
+                  ]
                 }
               ]
             }
